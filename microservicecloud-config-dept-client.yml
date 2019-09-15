@@ -8,4 +8,7 @@ server:
 spring: 
   profiles: dev
   application: 
-    name: microservicecloud-config-eureka-client
+    name: microservicecloud-config-dept-client
+mybatis: 
+  type-aliases-package: com.yangyun.springcloud.entities
+  mapper-locations: - classpath:mybatis/mapper/**/*.xml
