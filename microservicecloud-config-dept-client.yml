@@ -5,3 +5,7 @@
 ---
 server: 
   port: 8001
+spring: 
+  profile: dev
+  application: 
+    name: microservicecloud-config-dept-client
