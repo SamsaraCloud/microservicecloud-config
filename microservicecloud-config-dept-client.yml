@@ -6,4 +6,4 @@
 server: 
   port: 8001
 spring: 
-  profile: dev
+  profiles: dev
