@@ -1,0 +1,12 @@
+﻿spring:
+  profile:
+  active:
+  - dev
+---
+spring:
+  profile: dev
+
+eureka:
+  client:
+    register-with-eureka: false   #当前eureka-server 自己不注册进服务列表中
+    fetch-registry: false #不通过 eureka 获取注册信息
