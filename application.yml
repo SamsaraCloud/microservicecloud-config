@@ -1,4 +1,6 @@
-﻿spring: 
+server:
+  port: 1111
+ spring: 
   profiles: 
     active: 
     - dev
