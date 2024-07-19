@@ -4,7 +4,7 @@
   - dev
 ---
 server: 
-  port: 7001
+  port: 70011
   
 spring: 
   profile: dev
