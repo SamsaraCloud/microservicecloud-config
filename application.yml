@@ -1,6 +1,6 @@
 server:
-  port: 1111
- spring: 
+  port: 3344
+spring: 
   profiles: 
     active: 
     - dev
